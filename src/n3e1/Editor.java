@@ -6,6 +6,10 @@ import java.util.Objects;
 
 public class Editor {
     private String name;
+    private final String DNI;
+    private static int salary = 1500;
+
+    List<NewsEntry> newsEntries = new ArrayList<>();
 
     public String getDNI() {
         return DNI;
@@ -24,11 +28,6 @@ public class Editor {
         return Objects.hashCode(DNI);
     }
 
-    private final String DNI;
-    private static int salary = 1500;
-
-    List<NewsEntry> newsEntries = new ArrayList<>();
-
     public Editor(String DNI, String name) {
         this.DNI = DNI;
         this.name = name;
@@ -36,18 +35,6 @@ public class Editor {
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public static int getSalary() {
-        return salary;
-    }
-
-    public static void setSalary(int salary) {
-        Editor.salary = salary;
     }
 
     public void printNews() {

@@ -8,7 +8,7 @@ public class InputHelper {
     public static String requestField(String message) {
         Scanner scanner = new Scanner(System.in);
 
-        String result = "";
+        String result;
         while(true) {
             System.out.println(message);
             result = scanner.nextLine();
