@@ -1,7 +1,9 @@
 #### Descripció - Enunciat de l'exercici
 Sprint 1. Java Language 
+
 Tasca S1.01. Herència i Polimorfisme
-Cada subcarpeta representa un ejercicio hecho en un nivel
+
+Cada subcarpeta representa el ejercicio hecho en un nivel respectivo
 
 #### Tecnologies Utilitzades
 Java OpenJDK22
